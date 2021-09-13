@@ -1,0 +1,255 @@
+*
+{box-sizing: border-box;}
+
+body{
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    color: #2F0E4F;
+    background-color: gainsboro;
+}
+
+.container{
+    max-width: 1100px;
+    margin-left: 500px;
+    padding: 0 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.general_information{
+    padding: 20px 350px;
+    background: radial-gradient(circle farthest-corner at 100px 50px, #FBF2EB, #352A3B);
+    border-bottom: 2px lightgrey solid;
+    box-shadow: 1px 1px 10px grey;
+}
+
+.name{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 60px;
+    padding-bottom: 25px;
+    color: #2F0E4F;
+}
+
+.about_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_photo{
+    box-shadow: 2px 2px 20px grey;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name,
+.position{
+    text-shadow:1px 1px 2px orange;
+}
+
+.info_menu--link{
+    padding-right: 15px;
+    text-decoration: none;
+    color: #2F0E4F;
+}
+
+.info_menu--link:hover{
+    text-shadow:1px 1px 2px orange;
+    text-decoration: underline
+}
+
+.sidebar_info{
+    width: 400px;
+    float: left;
+    margin-left: 20px;
+}
+.sidebar_info-title{
+    text-shadow: 1px 1px 1px grey;
+    font-size: 18px;
+    padding: 20px 10px;
+    margin: 15px 0;
+}
+.info_title{
+    background-color: rgba(255, 148, 81, 0.8);;
+    text-shadow: 1px 1px 1px grey;
+    font-size: 18px;
+    padding: 20px 10px;
+    margin: 35px 0;
+}
+
+.info_link{
+    display: block;
+    text-decoration: none;
+    color: #2F0E4F;
+    margin-top: 10px;
+    right: 40px;
+}
+.info_link:hover{
+    text-shadow:1px 1px 2px orange;
+    transition: 0.3s all;
+}
+.info_address,
+.info_mail,
+.info_phone,
+.info_linkedin,
+.info_github{
+    position: relative;
+    left: 25px;
+    padding-bottom: 10px;
+}
+.info_address::before{
+    content: "";
+    position: absolute;
+    background-image: url("/img/home.svg");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    left: -25px;
+    top: -8px;
+}
+.info_phone::before{
+    content: "";
+    position: absolute;
+    background-image: url("/img/phone.svg");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    left: -25px;
+
+}
+.info_mail::before{
+    content: "";
+    position: absolute;
+    background-image: url("/img/email.svg");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    left: -25px;
+
+}
+
+.info_linkedin::before{
+    content: "";
+    position: absolute;
+    background-image: url("/img/linkedin.svg");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    left: -25px;
+
+}
+.info_github::before{
+    content: "";
+    position: absolute;
+    background-image: url("/img/github.svg");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    left: -25px;
+
+}
+.language{
+    padding-bottom: 10px;
+}
+.about_me{
+    margin-top: 15px;
+}
+.about_me--info{
+    line-height: 24px;
+    text-indent: 15px;
+}
+.education_info--university,
+.education_info--courses {
+    line-height: 24px;
+    padding: 10px 5px;
+
+}
+.experience_info--work{
+    display: flex;
+    justify-content: space-between;
+}
+.experience_info--first{
+    width: 460px;
+}
+.work_first{
+    line-height: 24px;
+    padding: 10px 5px;
+}
+.skill_slider{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.item{
+    width: 200px;
+}
+.skills_list--item{
+    list-style: none;
+}
+.add_info{
+    padding-bottom: 50px;
+}
+.interests{
+    text-shadow: 1px 1px 1px grey;
+    font-size: 18px;
+    padding: 20px 10px;
+    margin: 15px 0;
+}
+
+.interests_list-item{
+    position: relative;
+    line-height: 38px;
+    list-style: none;
+    left: 40px;
+
+}
+
+.interests_list-item::before{
+    content: "";
+    position: absolute;
+    background-image: url("/img/icons8-checkmark.svg");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    left: -30px;
+
+}
+.footer{
+    padding: 10px 300px;
+    background: radial-gradient(circle farthest-corner at 100px 50px, #FBF2EB, #352A3B);
+    border-top: 2px lightgrey solid;
+    box-shadow: 1px 1px 10px grey;
+}
+.footer_inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_name--inner{
+    font-size: 18px;
+    line-height: 28px;
+}
+.link_image{
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.footer_inner-link{
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer_menu{
+    padding-top: 35px;
+}
+
+
+
+
+
