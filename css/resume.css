@@ -109,7 +109,7 @@ span{
     width: 25px;
     height: 25px;
     left: -25px;
-    top: -8px;
+    top: -1px;
 }
 .info_phone::before{
     content: "";
@@ -179,14 +179,13 @@ span{
     line-height: 24px;
     padding: 10px 5px;
 }
-.skill_slider{
+.skill_item{
    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
 }
 .item{
-    width: 200px;
+    width: 250px;
 }
 .skills_list--item{
     list-style: none;
