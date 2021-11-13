@@ -184,11 +184,25 @@ span{
     justify-content: space-between;
     align-items: center;
 }
+.skill--logo{
+    width: 150px;
+    height: 150px;
+}
+.skill--logo:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 20px grey;
+
+}
 .item{
     width: 250px;
 }
 .skills_list--item{
     list-style: none;
+    float: bottom;
+}
+.skill_css--logo{
+    width: 150px;
+    height: 150px;
 }
 .add_info{
     padding-bottom: 50px;
@@ -205,7 +219,6 @@ span{
     line-height: 38px;
     list-style: none;
     left: 40px;
-
 }
 
 .interests_list-item::before{
